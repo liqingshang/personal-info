@@ -1,0 +1,348 @@
+/* Theme: Brutalist Engineer */
+
+:root {
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f5f5f5;
+  --text: #000000;
+  --text-muted: #555555;
+  --primary: #000000;
+  --primary-hover: #333333;
+  --accent: #ff2d00;
+  --accent-hover: #cc2400;
+  --border: #000000;
+  --shadow: none;
+  --radius: 0;
+  --font-heading: "Arial Black", "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans SC", sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading);
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+a {
+  color: var(--text);
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 3px;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+/* Header */
+.site-header {
+  background-color: var(--bg);
+  border-bottom: 4px solid var(--border);
+}
+
+.logo {
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+.main-nav {
+  background-color: var(--bg);
+  border-bottom: 4px solid var(--border);
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    background-color: transparent;
+    border-bottom: none;
+  }
+}
+
+.nav-link {
+  color: var(--text);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+}
+
+.theme-switcher {
+  background-color: var(--bg);
+  color: var(--text);
+  border: 3px solid var(--border);
+  border-radius: 0;
+  font-weight: 700;
+}
+
+.menu-bar {
+  background-color: var(--text);
+  height: 4px;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--bg);
+  border-bottom: 4px solid var(--border);
+}
+
+.hero-greeting {
+  color: var(--text-muted);
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-title {
+  font-size: 3rem;
+  color: var(--text);
+  line-height: 1;
+}
+
+@media (min-width: 768px) {
+  .hero-title {
+    font-size: 5rem;
+  }
+}
+
+.hero-tagline {
+  color: var(--text-muted);
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.hero-avatar img {
+  border: 4px solid var(--border);
+  border-radius: 0;
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: transform 0.1s;
+}
+
+.btn:hover {
+  transform: translate(-3px, -3px);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #ffffff;
+  border: 4px solid var(--primary);
+  box-shadow: 6px 6px 0 var(--accent);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover);
+  box-shadow: 8px 8px 0 var(--accent-hover);
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: var(--text);
+  border: 4px solid var(--border);
+  box-shadow: 6px 6px 0 var(--border);
+}
+
+.btn-secondary:hover {
+  box-shadow: 8px 8px 0 var(--accent);
+  color: var(--text);
+}
+
+/* Sections */
+.section:nth-child(even) {
+  background-color: var(--surface-2);
+}
+
+.section-title {
+  color: var(--text);
+  font-size: 2.25rem;
+  border-bottom: 4px solid var(--accent);
+  padding-bottom: 0.75rem;
+  display: inline-block;
+}
+
+/* Cards */
+.card {
+  background-color: var(--bg);
+  border: 4px solid var(--border);
+  border-radius: 0;
+}
+
+.experience-role {
+  color: var(--text);
+  font-size: 1.25rem;
+}
+
+.experience-company {
+  color: var(--text);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.experience-date {
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.experience-list {
+  color: var(--text-muted);
+}
+
+/* Projects */
+.project-card {
+  transition: transform 0.1s;
+}
+
+.project-card:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0 var(--accent);
+}
+
+.project-title {
+  color: var(--text);
+  font-size: 1.25rem;
+}
+
+.project-desc {
+  color: var(--text-muted);
+}
+
+.project-link {
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.project-link:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--text);
+  color: #ffffff;
+  border-radius: 0;
+  font-size: 0.75rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+/* Skills */
+.skill-heading {
+  color: var(--accent);
+  border-bottom: 4px solid var(--border);
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.skill-list {
+  color: var(--text-muted);
+}
+
+.skill-list li {
+  border-bottom: 1px dashed var(--border);
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--text);
+  color: #ffffff;
+  border-top: 4px solid var(--border);
+}
+
+.footer-title {
+  color: #ffffff;
+}
+
+.footer-desc {
+  color: #cccccc;
+}
+
+.footer-actions .btn-primary {
+  background-color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 6px 6px 0 #ffffff;
+}
+
+.footer-actions .btn-primary:hover {
+  background-color: var(--accent-hover);
+  box-shadow: 8px 8px 0 #eeeeee;
+}
+
+.footer-actions .btn-secondary {
+  background-color: var(--text);
+  color: #ffffff;
+  border-color: #ffffff;
+  box-shadow: 6px 6px 0 var(--accent);
+}
+
+.social-list a {
+  color: #ffffff;
+}
+
+.social-list a:hover {
+  color: var(--accent);
+}
+
+.copyright {
+  color: #888888;
+}
+
+/* Print */
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .hero,
+  .section:nth-child(even),
+  .site-footer {
+    background: #ffffff !important;
+  }
+
+  .site-footer {
+    color: #000000 !important;
+  }
+
+  .card {
+    background: none !important;
+    border-color: #000000 !important;
+    box-shadow: none !important;
+  }
+
+  a {
+    color: #000000 !important;
+  }
+
+  h1, h2, h3, h4 {
+    color: #000000 !important;
+  }
+
+  .btn {
+    box-shadow: none !important;
+  }
+}
