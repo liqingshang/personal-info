@@ -4,7 +4,7 @@
 The system SHALL serve a valid HTML5 page at the repository root (`index.html`) that renders without a backend or build step.
 
 #### Scenario: Direct visit to the site
-- **WHEN** a visitor opens `https://liqingshang.github.io`
+- **WHEN** a visitor opens `https://liqingshang.github.io/personal-info/`
 - **THEN** the browser renders the resume page with no 5xx or 4xx errors
 
 ### Requirement: Page contains all expected resume sections
@@ -63,7 +63,7 @@ The system SHALL be deployable to GitHub Pages from the default branch of the re
 
 #### Scenario: Enable GitHub Pages
 - **WHEN** GitHub Pages is enabled with source set to the default branch root
-- **THEN** the site is publicly accessible at `https://liqingshang.github.io`
+- **THEN** the site is publicly accessible at `https://liqingshang.github.io/personal-info/`
 
 ### Requirement: Content is seeded for later refinement
 The system SHALL include placeholder or initial draft content in every section so the author can replace text and links without restructuring the page.

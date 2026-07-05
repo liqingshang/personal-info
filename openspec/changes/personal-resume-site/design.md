@@ -66,7 +66,7 @@ styles/
 ### 5. Deploy from repository root to GitHub Pages
 
 - **Rationale**: GitHub Pages can serve static files directly from the default branch root. No generator or `docs/` folder is required.
-- **Expected URL**: `https://liqingshang.github.io`
+- **Expected URL**: `https://liqingshang.github.io/personal-info/`
 
 ### 6. Minimal vanilla JavaScript
 
@@ -211,7 +211,7 @@ The following five style variants will all be implemented as independent theme C
 4. Add a small theme switcher so the author can preview themes without editing `index.html`.
 5. Add placeholder content and initial assets (avatar placeholder, project screenshots as placeholders).
 6. Enable GitHub Pages in repository settings, source = default branch root.
-7. Visit `https://liqingshang.github.io`, switch themes, and verify layout on mobile and desktop.
+7. Visit `https://liqingshang.github.io/personal-info/`, switch themes, and verify layout on mobile and desktop.
 8. Iterate on content and replace placeholders with real information.
 
 ## Open Questions

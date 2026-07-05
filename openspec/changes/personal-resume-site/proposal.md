@@ -11,7 +11,7 @@ I was recently laid off and need a polished online presence to support my job se
 - Design and ship **five complete visual themes**: Minimalist Pro, Cyberpunk Neon, Terminal Hacker, Brutalist Engineer, and Warm Craftsman.
 - Store each theme as an independent CSS file under `styles/themes/` so switching styles only requires changing one `<link>` in `index.html`.
 - Include a tiny theme preview switcher in the page so the author (and visitors) can quickly compare themes.
-- Deploy the site to GitHub Pages at `https://liqingshang.github.io`.
+- Deploy the site to GitHub Pages at `https://liqingshang.github.io/personal-info/`.
 - Seed the site with placeholder/initial content that I can refine later.
 
 ## Capabilities

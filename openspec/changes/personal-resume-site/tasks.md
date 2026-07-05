@@ -36,7 +36,7 @@
 - [x] 4.5 Create `styles/themes/brutalist-engineer.css` (high contrast, bold accent)
 - [x] 4.6 Create `styles/themes/warm-craftsman.css` (cream, warm brown + sage)
 - [x] 4.7 Add print-friendly `@media print` styles to each theme
-- [ ] 4.8 Verify each theme renders correctly on 375px, 768px, and 1280px viewports
+- [x] 4.8 Verify each theme renders correctly on 375px, 768px, and 1280px viewports
 
 ## 5. Interactivity
 
@@ -52,14 +52,14 @@
 - [x] 6.2 Add Open Graph / Twitter Card meta tags for link previews
 - [x] 6.3 Add accessible labels and focus styles
 - [x] 6.4 Replace placeholder content with real resume content
-- [ ] 6.5 Run Lighthouse audit on the default theme and address any critical issues
+- [x] 6.5 Run Lighthouse audit on the default theme and address any critical issues
 
 ## 7. Deployment
 
 - [x] 7.1 Push all files to the `main` branch of the GitHub repository
-- [ ] 7.2 Enable GitHub Pages in repository settings (source: default branch root)
-- [ ] 7.3 Verify the site loads at `https://liqingshang.github.io`
-- [ ] 7.4 Test the live site with each theme on mobile and desktop
+- [x] 7.2 Enable GitHub Pages in repository settings (source: default branch root)
+- [x] 7.3 Verify the site loads at `https://liqingshang.github.io/personal-info/`
+- [x] 7.4 Test the live site with each theme on mobile and desktop
 - [ ] 7.5 Share the link with a friend or recruiter for feedback
 
 ## 8. Follow-up Improvements
