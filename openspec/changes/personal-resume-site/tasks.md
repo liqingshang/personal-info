@@ -56,7 +56,7 @@
 
 ## 7. Deployment
 
-- [ ] 7.1 Push all files to the `main` branch of the GitHub repository
+- [x] 7.1 Push all files to the `main` branch of the GitHub repository
 - [ ] 7.2 Enable GitHub Pages in repository settings (source: default branch root)
 - [ ] 7.3 Verify the site loads at `https://liqingshang.github.io`
 - [ ] 7.4 Test the live site with each theme on mobile and desktop
