@@ -24,6 +24,6 @@
 
 ## 5. Deployment
 
-- [ ] 5.1 Commit `resume.html`, `scripts/generate-pdf.js`, and the new `assets/resume.pdf`
-- [ ] 5.2 Push to `main`
-- [ ] 5.3 Verify the live site still downloads the polished PDF
+- [x] 5.1 Commit `resume.html`, `scripts/generate-pdf.js`, and the new `assets/resume.pdf`
+- [x] 5.2 Push to `main`
+- [x] 5.3 Verify the live site still downloads the polished PDF
