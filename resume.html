@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>李青尚 · Java 后端工程师 · 简历</title>
-  <meta name="description" content="李青尚的简历 PDF 源文件">
+  <title>藕杰 · Java 后端工程师 · 简历</title>
+  <meta name="description" content="藕杰的简历 PDF 源文件">
   <style>
     /* PDF-optimized resume styles */
 
     @page {
       size: A4;
-      margin: 16mm 18mm;
+      margin: 12mm 14mm;
     }
 
     * {
@@ -24,8 +24,8 @@
 
     body {
       font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", "Helvetica Neue", Arial, sans-serif;
-      font-size: 10.5pt;
-      line-height: 1.55;
+      font-size: 9.5pt;
+      line-height: 1.4;
       color: #1f2937;
       background: #ffffff;
     }
@@ -50,64 +50,64 @@
     }
 
     li + li {
-      margin-top: 0.25em;
+      margin-top: 0.2em;
     }
 
     /* Header */
     .resume-header {
-      border-bottom: 2px solid #1e3a8a;
-      padding-bottom: 12pt;
-      margin-bottom: 14pt;
+      border-bottom: 1.5pt solid #1e3a8a;
+      padding-bottom: 7pt;
+      margin-bottom: 9pt;
     }
 
     .name {
-      font-size: 24pt;
+      font-size: 20pt;
       color: #1e3a8a;
       letter-spacing: 0.02em;
     }
 
     .title {
-      font-size: 12pt;
+      font-size: 10.5pt;
       color: #4b5563;
-      margin-top: 2pt;
+      margin-top: 1pt;
       font-weight: 500;
     }
 
     .contact-row {
       display: flex;
       flex-wrap: wrap;
-      gap: 8pt 16pt;
-      margin-top: 8pt;
-      font-size: 9.5pt;
+      gap: 5pt 12pt;
+      margin-top: 5pt;
+      font-size: 9pt;
       color: #374151;
     }
 
     .contact-item {
       display: inline-flex;
       align-items: center;
-      gap: 4pt;
+      gap: 3pt;
     }
 
     .contact-item svg {
-      width: 10pt;
-      height: 10pt;
+      width: 9pt;
+      height: 9pt;
       flex-shrink: 0;
     }
 
     /* Sections */
     .section {
-      margin-bottom: 14pt;
+      margin-bottom: 8pt;
       page-break-inside: avoid;
     }
 
     .section-title {
-      font-size: 12pt;
+      font-size: 11pt;
       color: #1e3a8a;
       text-transform: uppercase;
       letter-spacing: 0.05em;
       border-bottom: 1px solid #d1d5db;
-      padding-bottom: 4pt;
-      margin-bottom: 8pt;
+      padding-bottom: 2pt;
+      margin-bottom: 5pt;
     }
 
     .summary {
@@ -117,7 +117,7 @@
 
     /* Experience */
     .entry {
-      margin-bottom: 10pt;
+      margin-bottom: 6pt;
       page-break-inside: avoid;
     }
 
@@ -129,20 +129,20 @@
     }
 
     .entry-title {
-      font-size: 11pt;
+      font-size: 10.5pt;
       color: #111827;
     }
 
     .entry-date {
-      font-size: 9.5pt;
+      font-size: 9pt;
       color: #6b7280;
       white-space: nowrap;
     }
 
     .entry-company {
-      font-size: 10pt;
+      font-size: 9.5pt;
       color: #4b5563;
-      margin-bottom: 4pt;
+      margin-bottom: 1pt;
     }
 
     .entry-list {
@@ -150,28 +150,32 @@
     }
 
     .entry-list li {
-      line-height: 1.5;
+      line-height: 1.4;
     }
 
     /* Projects */
     .project {
-      margin-bottom: 10pt;
+      margin-bottom: 6pt;
       page-break-inside: avoid;
     }
 
     .project-name {
-      font-size: 11pt;
+      font-size: 10.5pt;
       color: #111827;
     }
 
     .project-tech {
-      font-size: 9pt;
+      font-size: 8.5pt;
       color: #6b7280;
-      margin-bottom: 2pt;
+      margin-bottom: 1pt;
     }
 
     .project-desc {
       color: #374151;
+    }
+
+    .project-desc p + p {
+      margin-top: 0.2em;
     }
 
     /* Skills */
@@ -182,11 +186,11 @@
 
     .skill-table td {
       vertical-align: top;
-      padding-bottom: 4pt;
+      padding-bottom: 2pt;
     }
 
     .skill-table td:first-child {
-      width: 4.5em;
+      width: 4em;
       color: #1e3a8a;
       font-weight: 700;
       white-space: nowrap;
@@ -204,18 +208,18 @@
     }
 
     .education-school {
-      font-size: 10.5pt;
+      font-size: 10pt;
       color: #111827;
     }
 
     .education-date {
-      font-size: 9.5pt;
+      font-size: 9pt;
       color: #6b7280;
     }
 
     .education-major {
       color: #4b5563;
-      margin-top: 1pt;
+      margin-top: 0.5pt;
     }
 
     /* Utility */
@@ -238,12 +242,16 @@
   -->
 
   <header class="resume-header">
-    <h1 class="name">李青尚</h1>
-    <p class="title">Java 后端工程师 · 专注高并发系统设计与稳定性建设</p>
+    <h1 class="name">藕杰</h1>
+    <p class="title">Java 后端工程师 · 专注高并发、高可用的分布式系统设计与稳定性建设</p>
     <div class="contact-row">
       <span class="contact-item">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        17375449610
+      </span>
+      <span class="contact-item">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-        your.email@example.com
+        2927472601@qq.com
       </span>
       <span class="contact-item">
         <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
@@ -260,7 +268,7 @@
     <section class="section">
       <h2 class="section-title">个人简介</h2>
       <p class="summary">
-        5 年 Java 后端开发经验，擅长分布式系统、微服务架构与性能调优。主导过订单核心链路重构、分布式锁与库存预扣方案、支付清结算系统维护等项目。热爱把复杂问题拆成简单、可维护的代码，也相信好系统是慢慢打磨出来的。目前希望加入一支技术氛围扎实、业务有挑战的团队，继续在高并发、高可用的方向上深耕。
+        5 年 Java 后端开发经验，深耕分布式微服务架构、性能调优与系统稳定性建设。主导并参与多个金融/民生类核心业务系统的历史架构升级，熟悉 Spring Boot、Dubbo、Redis、Kafka/RocketMQ、MySQL/Oracle 等技术栈。注重代码可维护性与工程规范，能够在高并发、数据一致性要求高的场景下保障系统平稳运行。
       </p>
     </section>
 
@@ -269,56 +277,60 @@
 
       <article class="entry">
         <div class="entry-header">
-          <h3 class="entry-title">高级 Java 工程师</h3>
-          <span class="entry-date">2021 - 2024</span>
+          <h3 class="entry-title">Java 后端工程师</h3>
+          <span class="entry-date">2021.05 – 2026.07</span>
         </div>
-        <p class="entry-company">某互联网公司</p>
+        <p class="entry-company">翼支付</p>
         <ul class="entry-list">
-          <li>主导订单核心链路重构，接口 P99 从 800ms 降至 120ms。</li>
-          <li>设计并落地分布式锁与库存预扣方案，解决大促期间超卖问题。</li>
-          <li>推动 CI/CD 与单元测试覆盖，核心服务测试覆盖率从 45% 提升至 78%。</li>
+          <li>主导生活缴费系统历史架构升级，按业务能力拆分为客户中心、交易中心、对账中心、商户回调、自动代缴等微服务模块；搭建统一开发框架并规范代码风格，保障水电煤民生缴费业务稳定运行。</li>
+          <li>负责通信缴费预付费账单代扣系统的业务维护与架构升级方案设计，优化代码结构，降低线上故障风险，保障多渠道扣款链路稳定。</li>
+          <li>承担数据治理任务，对大数据量核心表进行高性能治理与数据兼容处理，支撑业务平滑演进。</li>
         </ul>
       </article>
 
       <article class="entry">
         <div class="entry-header">
           <h3 class="entry-title">Java 开发工程师</h3>
-          <span class="entry-date">2018 - 2021</span>
+          <span class="entry-date">2020.07 – 2021.05</span>
         </div>
-        <p class="entry-company">某金融科技公司</p>
+        <p class="entry-company">安耐吉化学</p>
         <ul class="entry-list">
-          <li>负责支付清结算系统的开发与维护，保障日均千万级交易稳定运行。</li>
-          <li>参与分库分表改造，将核心表数据量级从亿级查询耗时降至百毫秒。</li>
-          <li>编写内部中间件，统一了日志追踪与异常告警规范。</li>
+          <li>参与公司 ERP 系统的开发与维护，覆盖采购、库存、财务等模块的定制化需求与线上问题排查。</li>
         </ul>
       </article>
     </section>
 
     <section class="section">
-      <h2 class="section-title">项目作品</h2>
+      <h2 class="section-title">项目描述</h2>
 
       <article class="project">
         <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8pt;">
-          <h3 class="project-name">高并发秒杀系统</h3>
-          <span class="project-tech">Java / Redis / Kafka</span>
+          <h3 class="project-name">生活缴费系统</h3>
+          <span class="project-tech">Spring Boot / Dubbo / Nacos / Redis / MySQL / Oracle / Kafka / RocketMQ</span>
         </div>
-        <p class="project-desc">基于 Redis + Kafka 的秒杀链路，支持 10w QPS 削峰与库存扣减。</p>
+        <div class="project-desc">
+          <p>面向民生的水电煤缴费平台，采用分布式微服务架构。主导历史系统重构升级，搭建统一开发框架并规范代码风格，负责核心代码评审与业务维护，保障核心链路稳定运行。</p>
+        </div>
       </article>
 
       <article class="project">
         <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8pt;">
-          <h3 class="project-name">分布式任务调度平台</h3>
-          <span class="project-tech">Spring Boot / MySQL / Vue</span>
+          <h3 class="project-name">通信缴费系统</h3>
+          <span class="project-tech">Spring Boot / Dubbo / Nacos / Redis / MySQL / Oracle / Kafka / RocketMQ</span>
         </div>
-        <p class="project-desc">自研任务调度中间件，支持分片、失败重试、可视化监控。</p>
+        <div class="project-desc">
+          <p>覆盖话费充值、预付费/后付费/直连/定时定额代扣及流量网关等场景。负责预付费账单代扣系统的业务维护与架构升级，优化代码结构，保障多渠道、多模式扣款链路稳定运行。</p>
+        </div>
       </article>
 
       <article class="project">
         <div style="display:flex; justify-content:space-between; align-items:baseline; gap:8pt;">
-          <h3 class="project-name">实时风控引擎</h3>
-          <span class="project-tech">Flink / Elasticsearch / Docker</span>
+          <h3 class="project-name">民生营销系统</h3>
+          <span class="project-tech">Spring Boot / Dubbo / Nacos / Redis / MySQL / Kafka / RocketMQ</span>
         </div>
-        <p class="project-desc">基于 Flink 的实时规则计算，毫秒级识别异常交易。</p>
+        <div class="project-desc">
+          <p>支撑广告、弹窗、话费券、权益金、优享会员、AI 权益订购等运营玩法，采用产品层 + 网关层架构。参与系统设计与网关层能力建设，保障高并发场景下营销活动稳定发放。</p>
+        </div>
       </article>
     </section>
 
@@ -327,15 +339,11 @@
       <table class="skill-table">
         <tr>
           <td>熟练</td>
-          <td>Java / Spring Boot · MySQL / Redis / Kafka · RESTful API 设计 · 单元测试 / 代码审查</td>
+          <td>Java / Spring Boot / Dubbo · MySQL / Oracle / Redis · Kafka / RocketMQ / XXLJob · Nacos / Sentinel / MGS Gateway / 自研金融网关 · 分布式系统设计与稳定性建设</td>
         </tr>
         <tr>
           <td>熟悉</td>
-          <td>Docker / Kubernetes · Elasticsearch · GitHub Actions / CI/CD · 微服务治理</td>
-        </tr>
-        <tr>
-          <td>了解</td>
-          <td>React / Vue · Python 脚本 · Flink 实时计算 · 云原生可观测性</td>
+          <td>数据治理 / 大数据表性能优化 · 代码评审 / 工程规范建设 · 历史系统重构升级 / 业务稳定性保障</td>
         </tr>
       </table>
     </section>
@@ -343,8 +351,8 @@
     <section class="section">
       <h2 class="section-title">教育背景</h2>
       <div class="education-line">
-        <span class="education-school">XX 大学 · 计算机科学与技术 · 本科</span>
-        <span class="education-date">2014 - 2018</span>
+        <span class="education-school">安庆师范大学 · 计算机科学与技术 · 本科</span>
+        <span class="education-date">2016 – 2020</span>
       </div>
     </section>
   </main>
